@@ -1,4 +1,4 @@
-marine = {
+Marine = {
 	icon = 18
 
 	sail = yes
