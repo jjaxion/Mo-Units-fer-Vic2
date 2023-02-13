@@ -7,7 +7,6 @@ Marine = {
 	type = naval
 	sprite = Guard
 	active = yes
-	transport = yes
 	unit_type = transport
 	unit_type = infantry
 	primary_culture = yes
@@ -15,7 +14,7 @@ Marine = {
 
 	#Core Abilities
 	priority = 18
-	max_strength = 2
+	max_strength = 1.5
 	default_organisation = 40
 	maximum_speed = 3.00
 	weighted_value = 13.0
@@ -24,12 +23,12 @@ Marine = {
 
 
 	#Building Costs
-	build_time = 90
+	build_time = 120
 	build_cost = {
-		small_arms = 8
-		canned_food = 8
+		small_arms = 10
+		canned_food = 10
 		liquor = 12
-		wool = 6
+		regular_clothes = 10
 	}
 	min_port_level = 1
 	limit_per_port = -1
@@ -44,11 +43,12 @@ Marine = {
 	
 	#Land Abilties
 	reconnaissance = 0
-	attack = 15
-	defence = 10
+	attack = 12
+	defence = 6
 	discipline = 3.0
-	support = 1.0
-	maneuver = 3
+	support = 0.5
+	maneuver = 2
+	siege = 1
 
 	#Naval Abilties
 	hull = 5
