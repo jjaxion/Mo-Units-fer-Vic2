@@ -1,0 +1,58 @@
+marine = {
+	icon = 18
+
+	sail = yes
+	
+	type = land
+	type = naval
+	sprite = Guard
+	active = yes
+	transport = yes
+	unit_type = transport
+	unit_type = infantry
+	primary_culture = yes
+	floating_flag = yes
+
+	#Core Abilities
+	priority = 18
+	max_strength = 2
+	default_organisation = 40
+	maximum_speed = 3.00
+	weighted_value = 13.0
+	can_build_overseas = no
+	colonial_points = 5
+
+
+	#Building Costs
+	build_time = 90
+	build_cost = {
+		small_arms = 8
+		canned_food = 8
+		liquor = 12
+		wool = 6
+	}
+	min_port_level = 1
+	limit_per_port = -1
+	supply_consumption_score = 5
+	
+	supply_consumption = 0.80
+	supply_cost = {
+		small_arms = 0.010 #0.010
+		canned_food = 0.06 #0.07
+		ammunition = 0.08 #0
+	}
+	
+	#Land Abilties
+	reconnaissance = 0
+	attack = 15
+	defence = 10
+	discipline = 3.0
+	support = 1.0
+	maneuver = 3
+
+	#Naval Abilties
+	hull = 5
+	gun_power = 5
+	fire_range = 0.3
+	evasion = 2
+}
