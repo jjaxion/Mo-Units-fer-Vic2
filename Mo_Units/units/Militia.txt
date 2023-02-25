@@ -3,7 +3,7 @@ militia = {
 	
 	type = land
 	sprite = Irregular
-	active = yes
+	active = no
 	unit_type = infantry
 	floating_flag = no
 	
