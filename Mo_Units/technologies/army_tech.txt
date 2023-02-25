@@ -313,6 +313,7 @@ flintlock_rifles = {
 	unciv_military = yes
 	
 	activate_unit = infantry
+	activate_unit = militia
 	combat_width = -1
 
 	ai_chance = {
@@ -665,6 +666,7 @@ iron_breech_loaded_artillery = {
 	year = 1850
 	cost = 10800
 	unciv_military = yes
+	activate_unit = mortar
 	artillery = {
 		attack = 0.25
 		support = 0.5
