@@ -9,9 +9,9 @@ plane = {
 	
 	#Core Abilities
 	priority = 45
-	max_strength = 3
+	max_strength = .1
 	default_organisation = 30
-	maximum_speed = 5.00
+	maximum_speed = 25.00
 	weighted_value = 10.0
 
 
@@ -35,10 +35,10 @@ plane = {
 	
 
 	#Land Abilties
-	reconnaissance = 4
+	reconnaissance = 8
 	attack = 1
-	defence = 10
-	discipline = 0.1
-	support = 2
-	maneuver = 2
+	defence = 6
+	discipline = 0.5
+	support = 1
+	maneuver = 5
 }
