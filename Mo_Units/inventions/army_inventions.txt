@@ -5,6 +5,12 @@ post_napoleonic_army_doctrine = {
 		base = 2
 	}
 	effect = {
+		marine = {
+			defence = 1
+		} 
+		militia = {
+			defence = 1
+		} 
 		infantry = {
 			defence = 1
 		}
@@ -46,6 +52,12 @@ field_fortifications = {
 		}
 	}
 	effect = {
+		marine = {
+			defence = 1
+		} 
+		militia = {
+			defence = 1
+		} 
 		infantry = {
 			defence = 1
 		}
@@ -129,6 +141,12 @@ flexible_firepower = {
 		}
 	}
 	effect = {
+		marine = {
+			defence = 1
+		} 
+		militia = {
+			defence = 0.5
+		} 
 		infantry = {
 			defence = 1
 		}
@@ -151,7 +169,7 @@ flexible_firepower = {
 			defence = 0.5
 		}
 		irregular = {
-			defence = 0.5
+			defence = 1
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -172,6 +190,12 @@ synchronized_heavy_support = {
 		}
 	}
 	effect = {
+		marine = {
+			defence = 1
+		} 
+		militia = {
+			defence = 0.5
+		} 
 		infantry = {
 			defence = 1
 		}
@@ -194,7 +218,7 @@ synchronized_heavy_support = {
 			defence = 0.5
 		}
 		irregular = {
-			defence = 0.5
+			defence = 1
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -233,6 +257,12 @@ trench_systems = {
 		}
 	}
 	effect = {
+		marine = {
+			defence = 1
+		} 
+		militia = {
+			defence = 0.5
+		} 
 		infantry = {
 			defence = 1
 		}
@@ -258,7 +288,7 @@ trench_systems = {
 			defence = 0.5
 		}
 		irregular = {
-			defence = 0.5
+			defence = 1
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -310,6 +340,12 @@ elastic_defense_system = {
 		}
 	}
 	effect = {
+		marine = {
+			defence = 1
+		} 
+		militia = {
+			defence = 0.5
+		} 
 		infantry = {
 			defence = 1
 		}
@@ -335,7 +371,7 @@ elastic_defense_system = {
 			defence = 0.5
 		}
 		irregular = {
-			defence = 0.5
+			defence = 1
 		}
 		army_base = {
 			supply_consumption = 0.05
@@ -406,6 +442,14 @@ low_echelon_fire_support = {
 		}
 	}
 	effect = {
+		marine = {
+			attack = 1
+			defence = 1
+		} 
+		militia = {
+			attack = 0.5
+			defence = 0.5
+		} 
 		infantry = {
 			attack = 1
 		}
@@ -430,7 +474,7 @@ low_echelon_fire_support = {
 			defence = 1
 		}
 		irregular = {
-			attack = 0.5
+			attack = 1
 			defence = 1
 		}
 		army_base = {
@@ -448,6 +492,15 @@ stormtrooper_training = {
 		}
 	}
 	effect = {
+		marine = {
+			attack = 1
+			defence = 1
+			siege = 0.5
+		} 
+		irregular = {
+			attack = 0.5
+			defence = 0.5
+		} 
 		infantry = {
 			attack = 1
 		}
@@ -529,6 +582,17 @@ firepower_vs_mobility = {
 		}
 	}
 	effect = {
+		marine = {
+			attack = 1
+			defence = 1
+		} 
+		militia = {
+			defence = 0.5
+		} 
+		irregulars = {
+			attack = 0.5
+			defence = 1
+		} 
 		infantry = {
 			attack = 1
 			defence = 1
@@ -597,6 +661,14 @@ human_wave_vs_spearhead = {
 		}
 	}
 	effect = {
+		marine = {
+			attack = 1.5
+			defence = 1
+		} 
+		militia = {
+			attack = 0.5
+			defence = 1.5
+		} 
 		infantry = {
 			attack = 1
 			defence = 1
@@ -628,6 +700,7 @@ human_wave_vs_spearhead = {
 			defence = 2
 		}
 		irregular = {
+			attack = 1
 			defence = 2
 		}
 		army_base = {
@@ -764,6 +837,14 @@ machine_gun_armament = {
 		}
 	}
 	effect = {
+		marine = {
+			defence = 5
+			supply_consumption = 0.15
+		} 
+		militia = {
+			defence = 2
+			supply_consumption = 0.10
+		} 
 		infantry = {
 			defence = 4
 			supply_consumption = 0.20
@@ -793,7 +874,7 @@ machine_gun_armament = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			defence = 1
+			defence = 3
 			supply_consumption = 0.20
 		}
 	}
@@ -847,6 +928,14 @@ bolt_action_rifle_armament = {
 		}
 	}
 	effect = {
+		marine = {
+			attack = 4
+			supply_consumption = 0.15
+		}
+		militia = {
+			attack = 1
+			supply_consumption = 0.10
+		}
 		infantry = {
 			attack = 4
 			supply_consumption = 0.20
@@ -876,7 +965,7 @@ bolt_action_rifle_armament = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 0.5
+			attack = 2
 			supply_consumption = 0.20
 		}
 	}
@@ -896,6 +985,16 @@ interwar_infantry = {
 		}
 	}
 	effect = {
+		marine = {
+			attack = 4.5
+			defence = 2.5
+			supply_consumption = 0.20
+		}
+		militia = {
+			attack = 1
+			defence = 2
+			supply_consumption = 0.20
+		}
 		infantry = {
 			attack = 4
 			defence = 2
@@ -912,7 +1011,7 @@ interwar_infantry = {
 			supply_consumption = 0.20
 		}
 		irregular = {
-			attack = 1
+			attack = 2
 			defence = 2
 			supply_consumption = 0.20
 		}
@@ -1063,7 +1162,7 @@ anti_aircraft_artillery = {
 		artillery = {
 			attack = 0.1
 			defence = 1
-			support = 0.1
+			support = 0.2
 			supply_consumption = 0.25
 		}
 	}
@@ -1084,8 +1183,8 @@ improved_anti_aircraft_artillery = {
 	effect = {
 		artillery = {
 			attack = 0.1
-			defence = 1
-			support = 0.1
+			defence = 2
+			support = 0.2
 			supply_consumption = 0.25
 		}
 	}
