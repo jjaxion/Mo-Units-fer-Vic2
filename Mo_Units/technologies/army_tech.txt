@@ -4,6 +4,7 @@ post_napoleonic_thought = {
 	year = 1836
 	cost = 3600
 	unciv_military = yes
+	activate_unit = militia
 
 	activate_building = fort	
 	army_base = {
@@ -313,7 +314,7 @@ flintlock_rifles = {
 	unciv_military = yes
 	
 	activate_unit = infantry
-	activate_unit = militia
+
 	combat_width = -1
 
 	ai_chance = {
@@ -355,7 +356,7 @@ muzzle_loaded_rifles = {
 	cost = 7200
 	unciv_military = yes
 	activate_unit = engineer
-	activate_unit = marine
+
 	combat_width = -2
 
 	ai_chance = {
