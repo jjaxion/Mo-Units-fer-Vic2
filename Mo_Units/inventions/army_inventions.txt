@@ -756,7 +756,8 @@ muzzle_loaded_rifle_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = muzzle_loaded_rifle_armament }
-	effect = {
+			}
+	{effect = {
 		infantry = {
 			attack = 1
 			supply_consumption = 0.10
@@ -789,6 +790,7 @@ breech_loaded_rifle_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = breech_loaded_rifle_armament }
+			}
 	effect = {
 		infantry = {
 			attack = 1
