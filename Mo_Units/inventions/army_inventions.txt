@@ -756,8 +756,6 @@ muzzle_loaded_rifle_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = muzzle_loaded_rifle_armament }
-		}
-	}
 	effect = {
 		infantry = {
 			attack = 1
