@@ -789,8 +789,6 @@ breech_loaded_rifle_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = breech_loaded_rifle_armament }
-		}
-	}
 	effect = {
 		infantry = {
 			attack = 1
@@ -832,8 +830,6 @@ machine_gun_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = machine_gun_armament }
-		}
-	}
 	effect = {
 		marine = {
 			defence = 5
