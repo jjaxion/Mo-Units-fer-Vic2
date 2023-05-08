@@ -3,7 +3,7 @@ post_napoleonic_army_doctrine = {
 	limit = { post_napoleonic_thought = 1 }
 	chance = {
 		base = 2
-	}
+	}}
 	effect = {
 		marine = {
 			defence = 1
@@ -49,8 +49,7 @@ field_fortifications = {
 		modifier = {
 			factor = 2
 			organized_factories = 1
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			defence = 1
@@ -138,8 +137,7 @@ flexible_firepower = {
 		modifier = {
 			factor = 2
 			army_professionalism = 1
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			defence = 1
@@ -187,8 +185,7 @@ synchronized_heavy_support = {
 		modifier = {
 			factor = 2
 			invention = flexible_firepower
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			defence = 1
@@ -254,8 +251,7 @@ trench_systems = {
 		modifier = {
 			factor = 2
 			invention = flexible_firepower
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			defence = 1
@@ -337,8 +333,7 @@ elastic_defense_system = {
 		modifier = {
 			factor = 2
 			invention = trench_systems
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			defence = 1
@@ -439,8 +434,7 @@ low_echelon_fire_support = {
 		modifier = {
 			factor = 2
 			invention = elastic_defense_system
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			attack = 1
@@ -489,9 +483,8 @@ stormtrooper_training = {
 		modifier = {
 			factor = 2
 			bolt_action_rifles = 1
-		}
-	}
-	effect = {
+		}}
+		effect = {
 		marine = {
 			attack = 1
 			defence = 1
@@ -579,8 +572,7 @@ firepower_vs_mobility = {
 		modifier = {
 			factor = 1
 			machine_guns = 1
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			attack = 1
@@ -658,8 +650,8 @@ human_wave_vs_spearhead = {
 		modifier = {
 			factor = 1
 			semi_automatization = 1
-		}
-	}
+
+	}}
 	effect = {
 		marine = {
 			attack = 1.5
@@ -832,6 +824,7 @@ machine_gun_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = machine_gun_armament }
+			}}
 	effect = {
 		marine = {
 			defence = 5
@@ -921,8 +914,7 @@ bolt_action_rifle_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = bolt_action_rifle_armament }
-		}
-	}
+		}}
 	effect = {
 		marine = {
 			attack = 4
@@ -978,8 +970,7 @@ interwar_infantry = {
 		modifier = {
 			factor = 2
 			modern_army_doctrine = 1
-		}
-	}
+	}}
 	effect = {
 		marine = {
 			attack = 4.5
@@ -1024,8 +1015,7 @@ interwar_cavalry = {
 		modifier = {
 			factor = 1
 			combustion_engine = 1
-		}
-	}
+		}}
 	effect = {
 		cuirassier = {
 			attack = 2
@@ -1174,8 +1164,7 @@ improved_anti_aircraft_artillery = {
 		modifier = {
 			factor = -3
 			not = { invention = anti_aircraft_artillery }
-		}
-	}
+		}}
 	effect = {
 		artillery = {
 			attack = 0.1
