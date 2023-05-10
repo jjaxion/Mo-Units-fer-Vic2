@@ -4,7 +4,7 @@ post_napoleonic_army_doctrine = {
 	chance = {
 		base = 2
 	}
-	effect = {
+	}effect = {
 		marine = {
 			defence = 1
 		} 
@@ -50,8 +50,7 @@ field_fortifications = {
 			factor = 2
 			organized_factories = 1
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			defence = 1
 		} 
@@ -96,8 +95,7 @@ railroad_transport_groups = {
 			factor = 3
 			early_railroad = 1
 		}
-	}
-	effect = {
+	}effect = {
 		mobilisation_size = 0.01
 	}
 }
@@ -114,8 +112,7 @@ signal_detachments = {
 			factor = 2
 			army_professionalism = 1
 		}	
-	}
-	effect = {
+	}effect = {
 		engineer = {
 			siege = 1			
 		}
@@ -139,8 +136,7 @@ flexible_firepower = {
 			factor = 2
 			army_professionalism = 1
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			defence = 1
 		} 
@@ -188,8 +184,7 @@ synchronized_heavy_support = {
 			factor = 2
 			invention = flexible_firepower
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			defence = 1
 		} 
@@ -237,8 +232,7 @@ staff_command_support = {
 			factor = 2
 			army_professionalism = 1
 		}
-	}
-	effect = {
+	}effect = {
 		mobilisation_size = 0.01
 	}
 }
@@ -255,8 +249,7 @@ trench_systems = {
 			factor = 2
 			invention = flexible_firepower
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			defence = 1
 		} 
@@ -338,8 +331,7 @@ elastic_defense_system = {
 			factor = 2
 			invention = trench_systems
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			defence = 1
 		} 
@@ -391,8 +383,7 @@ flexible_counterattacks = {
 			factor = 2
 			combustion_engine = 1
 		}
-	}
-	effect = {
+	}effect = {
 		infantry = {
 			attack = 1
 		}
@@ -440,8 +431,7 @@ low_echelon_fire_support = {
 			factor = 2
 			invention = elastic_defense_system
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			attack = 1
 			defence = 1
@@ -490,8 +480,7 @@ stormtrooper_training = {
 			factor = 2
 			bolt_action_rifles = 1
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			attack = 1
 			defence = 1
@@ -557,8 +546,7 @@ tank_exploits = {
 			factor = -5
 			not = { invention = tank_experiments }
 		}
-	}
-	effect = {
+	}effect = {
 		tank = {
 			attack = 2
 			defence = 4
@@ -580,8 +568,7 @@ firepower_vs_mobility = {
 			factor = 1
 			machine_guns = 1
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			attack = 1
 			defence = 1
@@ -639,8 +626,7 @@ grand_battle_plan_vs_superior_firepower = {
 			factor = 2
 			invention = modern_logics
 		}
-	}
-	effect = {
+	}effect = {
 		army_base = {
 			default_organisation = 10
 		} 
@@ -659,8 +645,7 @@ human_wave_vs_spearhead = {
 			factor = 1
 			semi_automatization = 1
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			attack = 1.5
 			defence = 1
@@ -722,8 +707,7 @@ flintlock_rifle_armament = {
 			war = yes
 			war_countries = { invention = flintlock_rifle_armament }
 		}
-	}
-	effect = {
+	}effect = {
 		infantry = {
 			attack = 1
 			supply_consumption = 0.10
@@ -832,7 +816,8 @@ machine_gun_armament = {
 			factor = 2
 			war = yes
 			war_countries = { invention = machine_gun_armament }
-	effect = {
+			}	
+	}effect = {
 		marine = {
 			defence = 5
 			supply_consumption = 0.15
@@ -922,8 +907,7 @@ bolt_action_rifle_armament = {
 			war = yes
 			war_countries = { invention = bolt_action_rifle_armament }
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			attack = 4
 			supply_consumption = 0.15
@@ -979,8 +963,7 @@ interwar_infantry = {
 			factor = 2
 			modern_army_doctrine = 1
 		}
-	}
-	effect = {
+	}effect = {
 		marine = {
 			attack = 4.5
 			defence = 2.5
@@ -1025,8 +1008,7 @@ interwar_cavalry = {
 			factor = 1
 			combustion_engine = 1
 		}
-	}
-	effect = {
+	}effect = {
 		cuirassier = {
 			attack = 2
 			defence = 2
