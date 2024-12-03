@@ -1,0 +1,44 @@
+Barge = {
+	icon = 7
+	naval_icon = 4
+	
+	type = naval
+	sprite = Steam_Transport
+	transport = yes
+	active = no
+	unit_type = transport
+	move_sound = steam_move
+	select_sound = steam_selected
+	floating_flag = yes
+
+	#Core Abilities
+	priority = 10
+	max_strength = 50
+	default_organisation = 20
+	maximum_speed = 10
+	weighted_value = 1.0
+	can_build_overseas = yes
+
+	#Building Costs
+	build_time = 45
+	build_cost = {
+		steamer_convoy = 3
+		artillery = 1
+	}
+	min_port_level = 2
+	limit_per_port = -1
+	supply_consumption_score = .5
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		steamer_convoy = 0.05
+		artillery = 0.05
+	}
+	
+	#Naval Abilties
+	hull = 5
+	gun_power = 3
+	fire_range = 0.25
+	evasion = 0
+}
+

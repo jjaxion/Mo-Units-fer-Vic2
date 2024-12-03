@@ -1,0 +1,44 @@
+Bomb_Ketch = {
+	icon = 5
+	naval_icon = 2
+	
+	sail = yes
+	
+	type = naval
+	sprite = Frigate
+	unit_type = light_ship
+	floating_flag = yes
+	colonial_points = 1
+	
+	#Core Abilities
+	priority = 13
+	max_strength = 65
+	default_organisation = 20
+	maximum_speed = 6
+	weighted_value = 1.5
+	can_build_overseas = no
+
+	#Building Costs
+	build_time = 120
+	build_cost = {
+		clipper_convoy = 5
+		artillery = 3
+	}
+	min_port_level = 1
+	limit_per_port = -1
+	supply_consumption_score = 1
+	
+	supply_consumption = 0.8
+	supply_cost = {
+		clipper_convoy = 0.1
+		artillery = 0.03 #0.05
+	}
+	
+	#Naval Abilties
+	hull = 2
+	gun_power = 3
+	fire_range = 0.75
+	evasion = 0.3
+	torpedo_attack = 0
+}
+

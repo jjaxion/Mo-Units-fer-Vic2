@@ -1,0 +1,36 @@
+rabble = {
+	icon = 17
+	
+	type = land
+	sprite = Irregular
+	active = yes
+	unit_type = infantry
+	floating_flag = no
+	
+	#Core Abilities
+	priority = 5
+	max_strength = 10
+	default_organisation = 10
+	maximum_speed = 3.00
+	weighted_value = 0.5
+
+
+	#Building Costs
+	build_time = 14
+	build_cost = {
+		wool = 5
+		
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		wool = 0.01
+	}
+	
+
+	#Land Abilties
+	attack = 1
+	defence = 1
+	discipline = .5
+	maneuver = 1
+}

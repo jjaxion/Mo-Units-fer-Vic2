@@ -1,0 +1,48 @@
+Submarine = {
+	icon = 8
+	naval_icon = 5
+	
+	type = naval
+	sprite = Raider
+	active = no
+	unit_type = light_ship
+	move_sound = steam_move
+	select_sound = steam_selected
+	floating_flag = yes
+	colonial_points = 5
+	
+	#Core Abilities
+	priority = 15
+	max_strength = 100
+	default_organisation = 80
+	maximum_speed = 15
+	weighted_value = 5.0
+	can_build_overseas = no
+
+
+	#Building Costs
+	build_time = 300
+	build_cost = {
+		steamer_convoy = 10
+		explosives = 3
+		canned_food = 2
+	}
+	min_port_level = 3
+	limit_per_port = -1
+	supply_consumption_score = 3
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		steamer_convoy = 0.15
+		explosives = 0.15
+		canned_food = 0.15
+	}
+	
+	#Naval Abilties
+	hull = 10
+	gun_power = 3
+	fire_range = 1.2
+	evasion = 0.5
+	torpedo_attack = 12
+}
+
